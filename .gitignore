@@ -1,0 +1,8 @@
+# Ignore virtual environment under backend/
+backend/venv/
+
+# Ignore uploaded images
+images/
+
+# Ignore .env file
+.env

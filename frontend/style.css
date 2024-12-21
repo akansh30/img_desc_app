@@ -1,0 +1,85 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container styling */
+.container {
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    color: #333;
+    text-align: center;
+}
+
+/* Heading style */
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #6a11cb;
+}
+
+/* Drag-and-Drop Box styling */
+.dropbox {
+    border: 2px dashed #6a11cb;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f3f3f3;
+    color: #6a11cb;
+    cursor: pointer;
+    transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.dropbox:hover {
+    background: #e9e9e9;
+    border-color: #2575fc;
+}
+
+.dropbox.dragover {
+    background: #dfe9ff;
+    border-color: #2575fc;
+}
+
+/* Upload Button */
+form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background: #f96d00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #ff9800;
+}
+
+/* Output section styling */
+#output img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid #6a11cb;
+    border-radius: 10px;
+}
+
+#description {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #6a11cb;
+    font-weight: bold;
+}
