@@ -1,13 +1,17 @@
 # Image Description App
 
-This repository allows you to generate image descriptions using a custom AI model. Follow the steps below to clone, set up, and run the application.
+This repository sets up a user-friendly interface using HTML, CSS, and JavaScript for uploading images and generating descriptions based on the images using the Hugging Face API. The backend is built with Flask, utilizing a REST API for communication.
+
+![Screenshot 2024-12-21 233550](https://github.com/user-attachments/assets/fdfb51eb-bdd8-422c-8534-1c0de74ddcc4)
+![Screenshot 2024-12-21 233640](https://github.com/user-attachments/assets/d36cfb7d-6eba-4f76-b1cf-42e92f1fd8d2)
+![Screenshot 2024-12-21 233750](https://github.com/user-attachments/assets/1c252ebb-cd7e-45b0-bc4d-4c47f79a6d57)
+![Screenshot 2024-12-21 234006](https://github.com/user-attachments/assets/98e7310e-1d73-436b-aa66-aeb2f09debcb)
 
 ## Steps to Set Up
 
 ### 1. Clone the Repository
 
-Clone the repository to your local machine:
-
+Clone the repository to your local machine:  
 ```bash
 git clone https://github.com/akansh30/img_desc_app.git
 ```
@@ -30,7 +34,7 @@ source venv/Scripts/activate
 pip install -r ../requirements.txt
 ```
 ### 5. Configure API key
-Create a .env file in the backend folder and add your Hugging Face API key like this:
+Create a .env file in the root directtory and add your Hugging Face API key like this:
 ```bash
 HF_API_KEY = "<your_api_key>"
 ```
