@@ -1,4 +1,4 @@
-# Image Description App
+# Image Description Web App
 
 This repository sets up a user-friendly interface using HTML, CSS, and JavaScript for uploading images and generating descriptions based on the images using the Hugging Face API. The backend is built with Flask, utilizing a REST API for communication.
 
